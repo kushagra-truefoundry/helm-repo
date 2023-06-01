@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  chatgpt-plugin:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-02T01:09:24.4810046+05:30"
+    dependencies:
+    - condition: qdrant.enabled
+      name: qdrant
+      repository: ""
+      version: "1"
+    - condition: api-service.enabled
+      name: api-service
+      repository: ""
+      version: "1"
+    description: A Helm chart for Kubernetes
+    digest: b008fddcd83edc433765bdb45be64dcb3d74a2f1645ad0ef0646665edc78759b
+    name: chatgpt-plugin
+    type: application
+    urls:
+    - chatgpt-plugin-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-02T01:09:24.4760476+05:30"
